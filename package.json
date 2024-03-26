@@ -1,0 +1,17 @@
+{
+  "name": "js-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "plugin.js",
+  "scripts": {
+    "build": "node esbuild.js && extism-js dist/plugin.js -i plugin.d.ts -o plugin.wasm"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-xml-parser": "^4.3.6"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  }
+}
